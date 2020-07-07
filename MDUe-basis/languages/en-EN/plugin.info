@@ -1,0 +1,10 @@
+{
+	"title": "$:/languages/en-EN-X",
+	"name": "en-EN-X",
+	"plugin-type": "language",
+	"description": "English (UK)",
+	"author": "MarioPietsch aka pmario",
+	"core-version": ">=5.0.0",
+	"dependents": ["$:/languages/de-EN"],
+	"plugin-priority": 120
+}

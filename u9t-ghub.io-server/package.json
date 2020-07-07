@@ -1,0 +1,40 @@
+{
+  "name": "u9t.github.io-server",
+  "version": "0.0.3",
+  "description": "Auto deploy this project",
+  "main": "index.js",
+  "scripts": {
+    "start": "tiddlywiki . --server 8080 $:/core/save/all text/plain text/html",
+    "test": "echo ---- no tests atm ----",
+    "server": "npm start",
+    
+    "build:all": "node bin/build",
+    "build:github": "tiddlywiki ../../u9t.github.io --build github",
+    "build": "tiddlywiki ../../u9t.github.io --build index",
+
+    "stage:all": "node bin/stage",
+    "stage": "npm run build:github",
+    
+    "predeploy": "npm run stage:all",
+    "deploy": "echo # deploy is done with u9t.github.io repo!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u9t/u9t.github.io"
+  },
+  "keywords": [
+    "u9t",
+    "homepage"
+  ],
+  "author": "Mario Pietsch",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/u9t/u9t.github.io/issues"
+  },
+  "homepage": "https://u9t.github.io",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tiddlywiki": "^5.1.22"
+  }
+}

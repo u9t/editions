@@ -1,0 +1,18 @@
+{
+	"description": "Server configuration for a Unite (u9t) edition",
+	"plugins": [
+		"tiddlywiki/tiddlyweb",
+		"tiddlywiki/filesystem",
+		"wikilabs/link-to-tabs",
+		"wikilabs/info-session",
+		"wikilabs/advanced-search-plus"
+	],
+	"themes": [
+	],
+	"includeWikis": [
+		"../MDUe-basis"
+	],
+	"config": {
+		"default-tiddler-location": "../MDUe-basis/tiddlers"
+	}
+}

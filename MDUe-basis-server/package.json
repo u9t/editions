@@ -1,0 +1,40 @@
+{
+  "name": "MDUe-basis-server",
+  "version": "0.0.1",
+  "description": "tiddlywiki edition development helper",
+  "main": "index.js",
+  "scripts": {
+    "start": "tiddlywiki . --server 8080 $:/core/save/all text/plain text/html",
+    "test": "echo ---- no tests atm ----",
+
+    "server": "npm start",
+
+    "build:github": "tiddlywiki ../MDUe-basis --build github",
+    "build": "tiddlywiki ../MDUe-basis --build index",
+
+    "prestage": "npm run build",
+    "stage": "npm run build:github",
+
+    "deploy": "echo # deploy is done with u9t.github.io repo!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u9t/editions"
+  },
+  "keywords": [
+    "tiddlywiki",
+    "tabs",
+    "links"
+  ],
+  "author": "Mario Pietsch",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/u9t/editions/issues"
+  },
+  "homepage": "https://u9t.github.io/editions/MDUe-basis",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tiddlywiki": "^5.1.22"
+  }
+}

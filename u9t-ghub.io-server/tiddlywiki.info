@@ -1,0 +1,22 @@
+{
+	"description": "Server configuration of the wikilabs edition",
+	"plugins": [
+		"tiddlywiki/tiddlyweb",
+		"tiddlywiki/filesystem",
+		"wikilabs/link-to-tabs",
+		"wikilabs/info-session",
+		"wikilabs/advanced-search-plus"
+	],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite"
+	],
+	"includeWikis": [
+		"../../u9t.github.io"
+	],
+	"config": {
+		"default-tiddler-location": "../../u9t.github.io/tiddlers"
+	},
+	"build": {
+	 }
+}
