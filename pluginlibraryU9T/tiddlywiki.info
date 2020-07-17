@@ -1,0 +1,33 @@
+{
+	"description": "Unite (u9t) Plugin Library",
+	"plugins": [
+		"tiddlywiki/pluginlibrary",
+		"u9t/pluginlibrary"
+	],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite"
+	],
+	"languages": [
+		"u9t/getting-started/de-DE",
+		"u9t/getting-started/en-EN"
+	],
+	"includeWikis": [
+	],
+	"build": {
+		"index": [
+			"--rendertiddler", "$:/core/save/all", "index.html", "text/plain"
+		],
+		"github": [
+				"--output", "../../u9t.github.io/editions/pluginlibraryU9T",
+				"--rendertiddler", "$:/core/save/all", "index.html", "text/plain"
+		],
+		"library": [
+			"--makelibrary","$:/UpgradeLibrary",
+			"--savelibrarytiddlers","$:/UpgradeLibrary","[prefix[$:/plugins/u9t/]] [prefix[$:/themes/u9t/]] [prefix[$:/languages/u9t/]] -[[$:/plugins/u9t/pluginlibrary]]", "recipes/library/tiddlers/","$:/UpgradeLibrary/List",
+			"--savetiddler","$:/UpgradeLibrary/List","recipes/library/tiddlers.json",
+			"--rendertiddler","$:/plugins/tiddlywiki/pluginlibrary/library.template.html","index.html","text/plain"
+			]
+
+	}
+}

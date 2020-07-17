@@ -1,0 +1,18 @@
+{
+	"description": "Content for the Unite (u9t) plugin-library",
+	"plugins": [
+		"tiddlywiki/tiddlyweb",
+		"tiddlywiki/filesystem",
+		"tiddlywiki/internals",
+		"wikilabs/link-to-tabs"
+	],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite"
+	],
+	"languages": [
+	],
+	"includeWikis": [
+		"../pluginlibraryU9T"
+	]
+}

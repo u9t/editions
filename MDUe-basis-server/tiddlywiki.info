@@ -13,6 +13,6 @@
 		"../MDUe-basis"
 	],
 	"config": {
-		"default-tiddler-location": "../MDUe-basis/tiddlers"
+		"default-tiddler-location-XXXXX": "../MDUe-basis/tiddlers"
 	}
 }

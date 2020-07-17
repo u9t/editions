@@ -1,5 +1,5 @@
 {
-	"description": "Server configuration of the wikilabs edition",
+	"description": "Server configuration of the Unite (u9t) edition",
 	"plugins": [
 		"tiddlywiki/tiddlyweb",
 		"tiddlywiki/filesystem",

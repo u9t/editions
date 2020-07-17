@@ -1,14 +1,15 @@
 {
 	"description": "Link-to-Tabs are added to every tab if selected",
 	"plugins": [
-		"u9t/getting-startedXXXXX"
+		"u9t/getting-started-de"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",
 		"tiddlywiki/snowwhite"
 	],
 	"languages": [
-		"de-DE"
+		"de-DE",
+		"de-AT"
 	],
 	"build": {
 		"index": [
