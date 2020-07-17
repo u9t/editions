@@ -10,9 +10,9 @@
 	"themes": [
 	],
 	"includeWikis": [
-		"../MDUe-basis"
+		"../MDUe_basis"
 	],
 	"config": {
-		"default-tiddler-location-XXXXX": "../MDUe-basis/tiddlers"
+		"default-tiddler-location-XXXXX": "../MDUe_basis/tiddlers"
 	}
 }
