@@ -1,5 +1,5 @@
 {
-  "name": "MDUe-basis-server",
+  "name": "MDUe_basis-server",
   "version": "0.0.1",
   "description": "tiddlywiki edition development helper",
   "main": "index.js",
@@ -9,8 +9,8 @@
 
     "server": "npm start",
 
-    "build:github": "tiddlywiki ../MDUe-basis --build github",
-    "build": "tiddlywiki ../MDUe-basis --build index",
+    "build:github": "tiddlywiki ../MDUe_basis --build github",
+    "build": "tiddlywiki ../MDUe_basis --build index",
 
     "prestage": "npm run build",
     "stage": "npm run build:github",
@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/u9t/editions/issues"
   },
-  "homepage": "https://u9t.github.io/editions/MDUe-basis",
+  "homepage": "https://u9t.github.io/editions/MDUe_basis",
   "dependencies": {
   },
   "devDependencies": {

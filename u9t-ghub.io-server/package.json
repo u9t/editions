@@ -1,6 +1,6 @@
 {
   "name": "u9t.github.io-server",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Auto deploy this project",
   "main": "index.js",
   "scripts": {
