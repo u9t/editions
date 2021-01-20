@@ -1,9 +1,6 @@
-caption: Relink Library
-created: 20200717125351873
-modified: 20200717125619189
+caption: //Relink// Library
+url: https://flibbles.github.io/tw5-relink/library/index.html
 tags: $:/tags/PluginLibrary
 title: $:/config/flibbles/relink/PluginLibrary
-type: text/vnd.tiddlywiki
-url: https://flibbles.github.io/tw5-relink/library/index.html
 
-The //Relink// library contains //Relink// as well as its supplemental plugins. It is maintained by Flibbles. See the <a href={{$:/plugins/flibbles/relink!!source}}>github page</a> for more information.
+The //Relink// library contains //Relink// as well as its supplemental plugins. It is maintained by Flibbles. See the [[github page|https://github.com/flibbles/tw5-relink]] for more information.
