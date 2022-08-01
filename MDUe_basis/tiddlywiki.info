@@ -1,7 +1,7 @@
 {
 	"description": "Link-to-Tabs are added to every tab if selected",
 	"plugins": [
-		"u9t/getting-started-de"
+		"u9t/getting-started-en"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",
